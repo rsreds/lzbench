@@ -118,7 +118,7 @@ LZMAT_FILES = lzmat/lzmat_dec.o lzmat/lzmat_enc.o
 
 LZRW_FILES = lzrw/lzrw1-a.o lzrw/lzrw1.o lzrw/lzrw2.o lzrw/lzrw3.o lzrw/lzrw3-a.o
 
-LZMA_FILES = lzma/LzFind.o lzma/LzmaDec.o lzma/LzmaEnc.o
+LZMA_FILES = lzma/LzFind.o lzma/LzmaDec.o lzma/LzmaEnc.o lzma/LzFindMt.o lzma/LzFindOpt.o lzma/Threads.o lzma/CpuArch.o
 
 LZ4_FILES = lz4/lz4.o lz4/lz4hc.o
 
