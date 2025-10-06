@@ -33,6 +33,8 @@ ifeq ($(BUILD_ARCH),32-bit)
     DONT_BUILD_LZSSE ?= 1
 endif
 
+LDFLAGS += -lm
+
 CC?=gcc
 
 COMPILER = $(shell $(CC) -v 2>&1 | grep -q "clang version" && echo clang || echo gcc)
